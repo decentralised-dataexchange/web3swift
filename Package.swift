@@ -25,7 +25,7 @@ let package = Package(
         .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.16.2"),
         .package(url: "https://github.com/decentralised-dataexchange/Starscream.git", from: "4.0.4"),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.5.1"),
-        .package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", from: "0.7.0")
+        .package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", .upToNextMinor(from: "0.7.0"))
     ],
     targets: [
         .target(
